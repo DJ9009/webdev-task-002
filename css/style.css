@@ -4,6 +4,8 @@
 .flex {
     display: flex;
     gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   
   .flex__item {
@@ -11,12 +13,24 @@
     border: 1px solid rgba(var(--flex-color), 1);
     padding: 2em;
     border-radius: 1rem;
+    background-color: black;
+    color: gold;
 
   }
   
+#flex1 {
+  background-color: green;
+  color: gold;
+  box-shadow: 0 0 50px 15px #e0d948;
+}
+
   .grid {
     display: grid;
     gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-rows: auto;
+    padding: 1rem;
+    
   }
   
   .grid__item {
@@ -24,5 +38,8 @@
     border: 1px solid rgba(var(--grid-color), 1);
     border-radius: 1rem;
     padding: 2em;
+    text-align: center;
+    background-color: aqua;
+    color: darkmagenta;
 }
   
