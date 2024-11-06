@@ -6,20 +6,23 @@
     gap: 1rem;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #203731;
+    padding: 0.5rem;
   }
   
   .flex__item {
     background-color: rgba(var(--flex-color), 0.25);
-    border: 1px solid rgba(var(--flex-color), 1);
+    border: 4px dashed;
+    border-color: white;
     padding: 2em;
-    border-radius: 1rem;
-    background-color: black;
-    color: gold;
-
+    border-radius: 2rem;
+    background-color: #203731;
+    color: #FFB612;
+    box-shadow: 0 0 50px 15px #e0d948;
   }
   
 #flex1 {
-  background-color: green;
+  background-color: 203731;
   color: gold;
   box-shadow: 0 0 50px 15px #e0d948;
 }
